@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main(void)
+{
+int nilai[10];
+for(int i=0;i<10;i++)
+{
+printf("Masukan Nilai Mahasiswa :");
+scanf("%d",&nilai[i]);
+}
+
+for (int i=0; i<10; i++)
+{
+if(nilai[i]>=60)
+{
+printf("\nMahasiswa Lulus dengan nilai :");
+printf("\n%d",nilai[i]);
+}
+}
+return 0;
+}
